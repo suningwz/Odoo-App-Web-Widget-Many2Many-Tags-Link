@@ -12,17 +12,17 @@
 
     'author': "Mint System GmbH",
     'website': "https://www.mint-system.ch",
-    'category': 'Cusotomization',
-    'version': '13.0.1.0.0',
+    'category': 'Customization',
+    'version': '13.0.1.0.1',
 
-    'depends': ['base'],
+    'depends': ['web'],
 
     'data': [
         'views/assets.xml',
     ],
 
     'qweb': [
-        "static/src/xml/fields_templates.xml",
+        'static/src/xml/fields_templates.xml',
     ],
 
     'installable': True,
